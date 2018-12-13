@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../img/Endrey.jpg');  */
+    /* background-repeat: no-repeat; */
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+.marge {
+    padding-top: 100px;
+}
+
+

@@ -1,0 +1,98 @@
+
+
+
+.progress-title{
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 10px;
+}
+.progress{
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+    border-radius: 0;
+    margin-bottom: 30px;
+    position: relative;
+}
+.progress .progress1
+{
+    width: 100%;
+    height: 6px;
+    background: rgba(207, 222, 133,0.2);
+    position: relative;
+}
+.progress {
+    margin-left: 7px;
+}
+.progress .progress-bar
+{
+    height: 100%;
+    background: #b5967f;
+    position: absolute;
+    top: 0;
+    left: 1px;
+    box-shadow: none;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    font-size: 17px;
+    font-weight: bold;
+    color: #555;
+    position: absolute;
+    bottom: -35px;
+    right: 27px;
+}
+@-webkit-keyframes animate-positive {
+    0% { width: 0%; }
+}
+@keyframes animate-positive {
+    0% { width: 0%; }
+}
+
+
+
+/*----------------------------------------------------
+	6. Work Experience Style
+------------------------------------------------------*/
+
+.myexperties {
+	background:#fff;
+}
+.myexperties .container{
+	padding-top:67px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+.expertiesico {
+	padding:70px 63px 70px 0;
+	text-align:right;
+	font-family:'Crimson Text',serif;
+	font-size:21px;
+	line-height:24px;
+	color:#5b4c5c;
+	font-style:italic;
+}
+.expertiesdesc {
+	border-left:2px solid #ada5ad;
+	padding:0 0 0 69px;
+	margin-bottom:100px;
+}
+.expertiesdesc p {
+	padding-bottom:0;
+}
+.expertiesdesc h4 {
+	font-size:14px;
+	font-weight:300;
+	color:#UIzards;
+	line-height:normal;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.expertiesdesc h5 {
+	font-family: 'Crimson Text', serif;
+	color:#5b4c5c;
+	font-size:18px;
+	font-style:italic;
+	font-weight:400;
+}
+

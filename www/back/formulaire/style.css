@@ -1,0 +1,8 @@
+body{
+    margin-top: 2vh;
+    background:  url('../img/portfolio-1.jpg') no-repeat fixed;
+    background-size: cover;
+}
+span.error{
+    color: red;
+}
